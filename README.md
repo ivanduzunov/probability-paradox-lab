@@ -41,11 +41,38 @@ probability-paradox-lab/
 └── requirements.txt
 ```
 
+
 ## Installation
 
-Clone the repository and navigate to the project directory.
+Clone the repository and navigate to the project directory:
 
-Create and activate a virtual environment, then install the dependencies listed in `requirements.txt`.
+```bash
+git clone https://github.com/ivanduzunov/probability-paradox-lab.git
+cd probability-paradox-lab
+```
+
+Create and activate a virtual environment.
+
+On macOS/Linux:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+On Windows:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+Install the project dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 
 ## Running the Project
 
