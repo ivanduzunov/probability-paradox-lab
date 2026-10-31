@@ -4,7 +4,7 @@ import numpy as np
 
 def simulate_monty_hall(
     switch: bool,
-    rng: np.random.Generator
+    rng: np.random.Generator | None = None
 ) -> bool:
     """Simulate one Monty Hall game and return whether the player wins."""
 
