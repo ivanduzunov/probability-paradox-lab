@@ -1,6 +1,7 @@
 
 import numpy as np
 
+
 def birthday_match_probability(group_size: int) -> float:
     """Calculate the probability that at least two people share a birthday."""
 
