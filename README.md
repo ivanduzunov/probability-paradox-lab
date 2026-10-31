@@ -23,6 +23,7 @@ The project investigates three probability problems:
 - Matplotlib
 - Jupyter Notebook
 - pytest
+- Ruff
 
 ## Project Structure
 
@@ -85,6 +86,13 @@ Run the following command from the project root:
 ```bash
 python -m pytest
 ```
+
+## Code Quality
+
+Run Ruff to check code style and identify potential issues:
+
+```bash
+ruff check .
 
 The tests validate the mathematical calculations, input validation, and simulation results.
 
