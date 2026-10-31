@@ -93,6 +93,7 @@ Run Ruff to check code style and identify potential issues:
 
 ```bash
 ruff check .
+```
 
 The tests validate the mathematical calculations, input validation, and simulation results.
 
